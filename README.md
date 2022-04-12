@@ -30,16 +30,17 @@ console.log(options);
 
 ## Multiple Arguments 2️⃣
 You may have noticed that `value` is an array. That's because you can have multiple arguments.
-To add multiple arguments, simply add an `arguments` property to the option. The `arguments` property takes an integer which starts from 0.
+To add multiple arguments, simply add an `arguments` property to the option. The `arguments` property takes an integer which starts from 0. If you'd like different arguments to have different types, just make
+the type property an array.
 
 Example:
 ```js
 const options = cargv.read()
 	.add({
 		name: 'cool',
-		type: 'bool', // or boolean (any number above 0 is true, along with 'on' and 'true')
+		type: ['bool', 'num'], // or boolean (any number above 0 is true, along with 'on' and 'true')
 		aliases: ['cargv_is_cool'],
-		default: [false, true],
+		default: [false, 5],
 		description: 'Is CArgV cool?',
 		arguments: 2
 	}).done();
