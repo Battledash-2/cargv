@@ -1,6 +1,6 @@
 {
   "name": "cargv",
-  "version": "0.1.0patch-1",
+  "version": "1.0.0",
   "description": "The easy way to make command line arguments.",
   "main": "lib/main.js",
   "readme": "README.md",
