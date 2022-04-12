@@ -1,6 +1,6 @@
 const cargv = require('../');
 
-const options = cargv.read()
+const options = cargv.read(false)
 	.add({
 		name: 'cool',
 		type: 'bool',
