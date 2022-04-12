@@ -1,0 +1,35 @@
+{
+  "name": "cargv",
+  "version": "0.0.1",
+  "description": "The easy way to make command line arguments.",
+  "main": "lib/main.js",
+  "readme": "README.md",
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Battledash-2/cargv.git"
+  },
+  "keywords": [
+    "argv",
+    "arg",
+    "command",
+    "line",
+    "command",
+    "line",
+    "arguments",
+    "argument",
+    "cli",
+    "interface"
+  ],
+  "author": "Battledash-2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Battledash-2/cargv/issues"
+  },
+  "homepage": "https://github.com/Battledash-2/cargv#readme",
+  "dependencies": {
+    "terminalcolors.js": "^1.0.9"
+  }
+}
