@@ -21,7 +21,8 @@
     "arguments",
     "argument",
     "cli",
-    "interface"
+    "interface",
+	"cargv"
   ],
   "author": "Battledash-2",
   "license": "MIT",
