@@ -3,9 +3,10 @@ const cargv = require('../');
 const options = cargv.read()
 	.add({
 		name: 'test',
-		type: ['boolean', 'number'],
-		default: [true, 5],
-		arguments: 2
+		type: ['boolean', 'number', 'list', 'string'],
+		default: [true, 5, ['hello'], 'idk'],
+		arguments: 4,
+		description: 'my profesonal tes descraptin\n\nokk'
 	}).done();
 
-console.log(options);
+console.log(options.test);
